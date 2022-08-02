@@ -1,0 +1,6 @@
+Sentiment Analysis of Movie Reviews
+Emily Mech
+
+This program is designed to classify an input movie review as either negative or positive. This is done via a logistic regression model, decision tree model, and multilayer perceptron neural network model. There are several user options to run the code. Currently, the code is designed to output results for each model with raw or cleaned input text, with baseline or improved feature representations, and with different vectorizer decisions. While the features and textual representations are currently designed to be baseline vs. improved and raw vs. cleaned, the user can further designate which text representations or features to turn on and off. More information on this functionality is given in the comments of the main.ipynb script.
+
+To run this program, run the main function in the main.ipynb script. The results of each of the models will be saved to ~/src/Results/results.csv. As the code is running 24 models, it takes some time finish (~20min?). If you would just like to see the results, the results.csv is populated in the Results folder.
